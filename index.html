@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Style Guide by CreativeSocial.Media</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Changed: Updated font families */
+        body {
+            font-family: 'Nunito Sans', sans-serif;
+            background-color: var(--color-background-light); /* Changed */
+        }
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+        .font-nunito-sans {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        
+        /* Changed: Updated CSS Variables with the new color palette */
+        :root {
+            --color-heading: #1E293B;      /* Deep Navy */
+            --color-title: #1E293B;        /* Deep Navy */
+            --color-body: #64748B;         /* Slate Gray */
+            --color-accent: #EC4899;       /* Vibrant Pink */
+            --color-hover: #5EEAD4;         /* Soft Teal */
+            --color-white: #FFFFFF;        /* White */
+            --color-background-light: #F8FAFC; /* Light Background */
+        }
+    </style>
+</head>
+<body class="antialiased" style="background-color: var(--color-background-light);">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <header class="text-center mb-12">
+            <h1 class="font-poppins text-4xl sm:text-5xl font-bold" style="color: var(--color-heading);">Website Style Guide</h1>
+            <p class="text-lg mt-2" style="color: var(--color-body);">A visual reference for brand consistency and design excellence.</p>
+        </header>
+
+        <div class="space-y-12">
+
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+                <div class="flex items-center mb-6">
+                    <div class="p-3 rounded-full mr-4" style="background-color: #FCE7F3;">
+                        <svg class="w-8 h-8" style="color: var(--color-accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m4 0v2M3 17h12M9 15v2M4 11h12M16 5l4 6-4 6"></path></svg>
+                    </div>
+                    <h2 class="font-poppins text-3xl font-bold" style="color: var(--color-heading);">1. Typography</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="border-l-4 pl-6" style="border-color: var(--color-accent);">
+                        <h3 class="font-poppins text-2xl font-bold" style="color: var(--color-title);">Primary Font: Poppins</h3>
+                        <p class="mt-1" style="color: var(--color-body);">Used for all headings to convey a modern, clean, and strong presence.</p>
+                        <div class="mt-4 space-y-2">
+                            <p class="font-poppins text-4xl font-bold" style="color: var(--color-heading);">Heading 1</p>
+                            <p class="font-poppins text-3xl font-bold" style="color: var(--color-heading);">Heading 2</p>
+                            <p class="font-poppins text-2xl" style="color: var(--color-heading);">Heading 3</p>
+                        </div>
+                    </div>
+                    <div class="border-l-4 pl-6" style="border-color: var(--color-hover);">
+                        <h3 class="font-poppins text-2xl font-bold" style="color: var(--color-title);">Secondary Font: Nunito Sans</h3>
+                        <p class="mt-1" style="color: var(--color-body);">Used for body text for its excellent readability and warm, friendly feel.</p>
+                        <div class="mt-4 space-y-2 text-lg" style="color: var(--color-body);">
+                            <p class="font-nunito-sans">This is a paragraph of body text. It is designed to be clear and easy to read for extended passages.</p>
+                            <p class="font-nunito-sans italic">This is an example of Nunito Sans Italic.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+                 <div class="flex items-center mb-8">
+                     <div class="p-3 rounded-full mr-4" style="background-color: #FCE7F3;">
+                         <svg class="w-8 h-8" style="color: var(--color-accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+                    </div>
+                    <h2 class="font-poppins text-3xl font-bold" style="color: var(--color-heading);">2. Color Palette</h2>
+                 </div>
+                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
+                    <div class="flex flex-col items-center">
+                        <div class="w-24 h-24 rounded-full shadow-inner" style="background-color: var(--color-accent);"></div>
+                        <h4 class="font-poppins font-bold mt-3" style="color: var(--color-title);">Vibrant Pink</h4>
+                        <p class="font-mono text-sm" style="color: var(--color-body);">#EC4899</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-24 h-24 rounded-full shadow-inner" style="background-color: var(--color-heading);"></div>
+                        <h4 class="font-poppins font-bold mt-3" style="color: var(--color-title);">Deep Navy</h4>
+                        <p class="font-mono text-sm" style="color: var(--color-body);">#1E293B</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-24 h-24 rounded-full shadow-inner" style="background-color: var(--color-body);"></div>
+                        <h4 class="font-poppins font-bold mt-3" style="color: var(--color-title);">Slate Gray</h4>
+                        <p class="font-mono text-sm" style="color: var(--color-body);">#64748B</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-24 h-24 rounded-full shadow-inner" style="background-color: var(--color-hover);"></div>
+                        <h4 class="font-poppins font-bold mt-3" style="color: var(--color-title);">Soft Teal</h4>
+                        <p class="font-mono text-sm" style="color: var(--color-body);">#5EEAD4</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-24 h-24 rounded-full shadow-inner border" style="background-color: var(--color-white);"></div>
+                        <h4 class="font-poppins font-bold mt-3" style="color: var(--color-title);">White</h4>
+                        <p class="font-mono text-sm" style="color: var(--color-body);">#FFFFFF</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="w-24 h-24 rounded-full shadow-inner border" style="background-color: var(--color-background-light);"></div>
+                        <h4 class="font-poppins font-bold mt-3" style="color: var(--color-title);">Light BG</h4>
+                        <p class="font-mono text-sm" style="color: var(--color-body);">#F8FAFC</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+                 <div class="flex items-center mb-6">
+                     <div class="p-3 rounded-full mr-4" style="background-color: #FCE7F3;">
+                         <svg class="w-8 h-8" style="color: var(--color-accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    </div>
+                    <h2 class="font-poppins text-3xl font-bold" style="color: var(--color-heading);">3. CSS Implementation</h2>
+                 </div>
+                <p class="mb-4" style="color: var(--color-body);">For easy maintenance, define styles as CSS variables in your child theme's stylesheet or Elementor's Custom Code section.</p>
+                <div class="bg-gray-800 rounded-lg p-4 text-white font-mono text-sm overflow-x-auto">
+                    <pre><code>:root {
+  --color-heading: #1E293B;
+  --color-title: #1E293B;
+  --color-body: #64748B;
+  --color-accent: #EC4899;
+  --color-hover: #5EEAD4;
+  --color-white: #FFFFFF;
+  --color-background-light: #F8FAFC;
+
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Nunito Sans', sans-serif;
+}
+
+/* Example Button Style */
+.elementor-button {
+  font-family: var(--font-secondary);
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.elementor-button:hover {
+  background-color: var(--color-hover);
+  color: var(--color-heading);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 41, 59, 0.2);
+}</code></pre>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</body>
+</html>
+```
